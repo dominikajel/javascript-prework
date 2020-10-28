@@ -1,8 +1,10 @@
+
+function buttonClicked(argButtonName) {
+
 const buttonRock = document.querySelector("#button-rock");
 const buttonPaper = document.querySelector("#button-paper");
 const buttonScissors = document.querySelector("#button-scissors");
 
-function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + " został kliknięty");
 
