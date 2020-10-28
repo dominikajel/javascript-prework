@@ -1,17 +1,17 @@
-
-function buttonClicked(argButtonName) {
-
 const buttonRock = document.querySelector("#button-rock");
 const buttonPaper = document.querySelector("#button-paper");
 const buttonScissors = document.querySelector("#button-scissors");
 
-  clearMessages();
+
+function buttonClicked(argButtonName) {
+clearMessages();
   console.log(argButtonName + " został kliknięty");
 
-  const computerMove,
-        playerMove,
-        randomNumber,
-        playerInput;
+  
+  var computerMove;
+  var playerMove;
+  var randomNumber;
+  var playerInput;
 
   playerMove = argButtonName;
   console.log("wybór ruchu gracza to: " + playerInput);
