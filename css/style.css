@@ -15,7 +15,7 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .container h1 {
@@ -40,8 +40,8 @@ body {
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 70%;
   margin: 0 auto;
 }
@@ -53,7 +53,6 @@ body {
 }
 
 .button img {
-  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -65,5 +64,9 @@ body {
 #button-paper {
   margin-left: 20px;
   margin-right: 12px;
+}
+
+#button-scissors {
+  padding-right: 3px;
 }
 /*# sourceMappingURL=style.css.map */
