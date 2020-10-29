@@ -9,7 +9,7 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "McLaren", cursive;
 }
 
 .container {
@@ -19,7 +19,6 @@ body {
 }
 
 .container h1 {
-  font-family: "McLaren", cursive;
   margin-top: 50px;
   margin-bottom: 20px;
   font-size: 50px;
@@ -30,43 +29,41 @@ body {
   font-size: 20px;
 }
 
-.image-wrapper {
-  border: 2px solid red;
-  width: 90%;
-  height: 90%;
-  margin: 0 auto;
-  position: relative;
+#messages {
+  margin-top: 35px;
+  line-height: 1.5;
+  font-size: 30px;
 }
 
-.image-wrapper img {
-  width: 100%;
+.button-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.button {
+  -ms-flex: 0 0 33, 33%;
+      flex: 0 0 33, 33%;
+  cursor: pointer;
+}
+
+.button img {
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
-#buttons {
-  border: 4px solid blue;
-  width: 100%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  padding: 0 30px;
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 100%;
+#button-rock {
+  margin-left: 15px;
 }
 
-button {
-  width: 300px;
-}
-
-#messages {
-  margin-top: 20px;
-  font-weight: bold;
-  line-height: 1.5;
-  font-size: 20px;
+#button-paper {
+  margin-left: 20px;
+  margin-right: 12px;
 }
 /*# sourceMappingURL=style.css.map */
